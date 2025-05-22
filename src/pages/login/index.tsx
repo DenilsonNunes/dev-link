@@ -31,7 +31,7 @@ const Login = () => {
       navigate('/admin', {replace: true})
     })
     .catch((err)=>{
-      console.log('[ERRO]',err)
+      alert('Houve um erro'+err)
     })
   }
 

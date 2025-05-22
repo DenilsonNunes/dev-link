@@ -26,9 +26,6 @@ const Admin = () => {
   const [links, setLinks] = useState<LinksProps[]>([])
 
 
-
-
-
   useEffect(()=>{
 
     const linksRef = collection(db, 'links');

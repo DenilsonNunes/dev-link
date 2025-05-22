@@ -71,7 +71,6 @@ const Home = () => {
         }
       })
 
-      console.log('SOCIAL LINKS', socialLinks)
     }
 
     loadSocialLinks();
