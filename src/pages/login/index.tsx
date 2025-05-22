@@ -1,4 +1,4 @@
-import { Link, replace, useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import Input from '../../components/Input'
 import { useState, type FormEvent } from "react"
 

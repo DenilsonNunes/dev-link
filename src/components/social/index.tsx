@@ -9,9 +9,6 @@ interface SocialProps{
 
 const Social = ({url, children}: SocialProps) => {
 
-  console.log('Qual url que chega', url)
-
-
   return (
     <a 
       href={url} 
