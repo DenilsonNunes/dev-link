@@ -15,7 +15,7 @@ Projeto inspirado no Linktree, que permite criar uma página personalizada para 
 
 ### Gerenciamento de Rotas e Requisições
 - **React Router DOM** – navegação entre páginas
-- **Axios** – requisições HTTP
+- **Firebase** – autenticação e banco de dados
 
 
 <br/>
@@ -24,6 +24,12 @@ Projeto inspirado no Linktree, que permite criar uma página personalizada para 
 
 - Node.js instalado
 - Git instalado
+- Firebase - conta e projeto configurado para:
+
+    Autenticação (Email/Senha)
+    
+    Firestore (banco de dados em tempo real)
+
   
 <br/>
 
