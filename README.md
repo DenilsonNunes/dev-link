@@ -1,6 +1,6 @@
 # DevLink
 
-,,,,,,,,,,,,,,,,,,,,,,,,,,
+Projeto inspirado no Linktree, que permite criar uma página personalizada para reunir e compartilhar seus links mais importantes.
 
 ![image](https://github.com/user-attachments/assets/36aa87a6-3eae-47ab-8e67-fc5ba90f1442)
 
@@ -46,6 +46,9 @@
 ## ▶️ Executando o Projeto
 
 ### Em desenvolvimento
+```bash
+npm run dev
+```
 
 
 
