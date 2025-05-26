@@ -26,9 +26,9 @@ Projeto inspirado no Linktree, que permite criar uma página personalizada para 
 - Git instalado
 - Firebase - conta e projeto configurado para:
 
-        Autenticação (Email/Senha)
+     -Autenticação (Email/Senha)
     
-        Firestore (banco de dados em tempo real)
+     -Firestore (banco de dados em tempo real)
 
   
 <br/>
