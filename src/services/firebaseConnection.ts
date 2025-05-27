@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDX4wJjW7h3LigHPamDQbrJZTt3cZNJEuk",
-  authDomain: "reactlinks-affcc.firebaseapp.com",
-  projectId: "reactlinks-affcc",
-  storageBucket: "reactlinks-affcc.firebasestorage.app",
-  messagingSenderId: "692409758655",
-  appId: "1:692409758655:web:e4bd7a1d4af3d5a0e7270a",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGIN_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
