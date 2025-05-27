@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+# DevLink
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto inspirado no Linktree, que permite criar uma página personalizada para reunir e compartilhar seus links mais importantes.
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/36aa87a6-3eae-47ab-8e67-fc5ba90f1442)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+<br/>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Tecnologias e bibliotecas utilizadas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Bibliotecas de UI e Estilização
+- **TailwindCSS** – estilização com classes utilitárias
+- **React Icons** – biblioteca de ícones
+
+### Gerenciamento de Rotas e Requisições
+- **React Router DOM** – navegação entre páginas
+- **Firebase** – autenticação e banco de dados
+
+
+<br/>
+
+## ✅ Pré-requisitos
+
+- Node.js instalado
+- Git instalado
+- Firebase - conta e projeto configurado para:
+
+     -Autenticação (Email/Senha)
+    
+     -Firestore (banco de dados em tempo real)
+
+  
+<br/>
+
+## 📦 Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/DenilsonNunes/dev-link
+   
+2. Navegue para pasta principal
+   ```bash
+   cd dev-link
+
+2. Instale as dependências:
+   ```bash
+   npm install
+
+<br/>
+
+## ▶️ Executando o Projeto
+
+### Em desenvolvimento
+```bash
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
